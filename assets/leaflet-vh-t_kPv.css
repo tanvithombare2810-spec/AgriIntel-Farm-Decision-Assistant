@@ -1,0 +1,13 @@
+@import url("https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css");
+
+.agri-map { width: 100%; background: #e5e7eb; z-index: 0; }
+.agri-pin { background: transparent; border: 0; }
+.agri-pin span {
+  display: block; width: 22px; height: 22px; border-radius: 50% 50% 50% 0;
+  transform: rotate(-45deg); border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.5);
+}
+.agri-vertex {
+  width: 12px; height: 12px; border-radius: 50%; background: #fff;
+  border: 3px solid #10b981; box-shadow: 0 0 0 1px rgba(0,0,0,.4);
+}
+.agri-map .leaflet-control-attribution { font-size: 9px; }
